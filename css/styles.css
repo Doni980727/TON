@@ -1,12 +1,21 @@
+#banner{
+	width: 100%;
+	overflow: hidden;
+}
+
 nav{
 	width: 100%;
-	font-size: 35px;
+	font-size: 25px;
 	padding-top: 7px;
 }
 
 .nav li a{
 	padding-left: 40px;
 	padding-right: 40px;
+}
+
+.navbar{
+	border-radius: 0px 0px 0px 0px;
 }
 
 .navbar .navbar-nav {
@@ -16,4 +25,19 @@ nav{
 
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+  	position: fixed;
+    width: 100%;
+}
+
+.active{
+	height
+}
+
+html, body {
+	height: 4000px;
 }
